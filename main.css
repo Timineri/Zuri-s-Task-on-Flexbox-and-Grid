@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   
+    font-size: 15px;
+}
+
+.card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns{
+    display: flex;
+    color: white;
+    width: 60%;
+}
+
+.column{
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+h1{
+    padding: 20px 0px 20px 0px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.button{
+    padding-top: 20px;
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn1:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn2:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn3:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+
+button{
+    padding: 10px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5em;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}

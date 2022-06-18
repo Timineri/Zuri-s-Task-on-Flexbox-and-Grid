@@ -10,7 +10,7 @@ body{
 }
 
 .card{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,4 +87,25 @@ button{
 
 .luxury{
     background-color: hsl(179, 100%, 13%);
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button#grid{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    padding: 15px;
+    width: 200px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+button#grid:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: black;
+        }
+        .grid-container {
+            background-color: black;
+            height: 70vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            margin: 100px;
+        }
+
+        .red {
+
+            background-color: red;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-column: 1 / 4;
+            grid-row: 1 / 3;
+        }
+
+        .orange {
+            background-color: orange;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-row: 1 / 3;
+
+        }
+
+        .green {
+            background-color: green;
+            grid-column-start: 1;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-column: 1 /3;
+            grid-row: 3 / 5;
+        }
+
+        .cyan {
+            background-color: cadetblue;
+        }
+
+        .first-cyan {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-column: 3 / 5;
+        }
+
+        .second-cyan {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-column: 3 / 5;
+
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="red"></div>
+        <div class="orange"></div>
+        <div class="green"></div>
+        <div class="cyan  first-cyan"></div>
+        <div class="cyan second-cyan"></div>
+    </div>
+</body>
+
+</html>
